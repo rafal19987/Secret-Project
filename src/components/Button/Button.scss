@@ -1,0 +1,16 @@
+@import '../../sass/variables';
+
+.btn {
+  height: 75px;
+  width: 300px;
+  margin-top: 40px;
+  background-color: $button-bg-primary;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: $button-bg-secondary;
+}

@@ -1,0 +1,46 @@
+// Global font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+// Reset
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p,
+button {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+}
+
+// Basic styles for mobile
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  width: 100vw;
+  height: 100vh;
+  background-color: $body-bg-color;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.66rem; // 48px
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.33rem; // 24px
+}
+
+button {
+  font-weight: 400;
+  font-size: 1.33rem; // 24px
+}
