@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../../components/Button/Button';
 import './Home.scss';
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="homeWrapper">
       <h1>This is JS interview questions App</h1>
       <p>You can improve your knowleage trying to qnsware for all questions.</p>
       <p>
@@ -12,7 +13,9 @@ const Home = () => {
         train and makes you gigaChad
       </p>
       <p>For start click the button below</p>
-      <Button />
+      <Link to="/questions">
+        <Button btnText={'Start'} />
+      </Link>
     </div>
   );
 };
