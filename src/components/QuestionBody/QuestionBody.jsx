@@ -5,7 +5,6 @@ import Counter from '../../components/Counter/Counter';
 import { questionsWithAnswers } from '../../data/questionsWithAnswers';
 
 const QuestionBody = ({ index }) => {
-  console.log(questionsWithAnswers[index].question);
   return (
     <>
       <Counter value={`${index + 1}/${questionsWithAnswers.length}`} />
