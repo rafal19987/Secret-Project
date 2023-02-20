@@ -1,6 +1,7 @@
 {
   "name": "questions-app",
   "version": "1.0.0",
+  "homepage": "https://rafal19987.github.io/Secret-Project",
   "description": "JavaScript interview questions App ",
   "main": "index.js",
   "scripts": {
