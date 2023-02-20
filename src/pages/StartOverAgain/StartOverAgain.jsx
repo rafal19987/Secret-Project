@@ -7,8 +7,8 @@ const StartOverAgain = () => {
   return (
     <>
       <Counter value={`00/20`} />
-      <h1 className="h1">Pull of questions and answers is over</h1>
-      <p className="p">If you want to start over again click button below</p>
+      <h1 className="h1">The pool of questions and answers has come to an end</h1>
+      <p className="p">The pool of questions and answers has come to an end</p>
     </>
   );
 };
